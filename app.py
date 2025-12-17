@@ -640,15 +640,19 @@ def editor_page():
 
         with load_col2:
             st.markdown("**Import JSON File**")
-            uploaded_file = st.file_uploader("Upload JSON file", type=['json'], label_visibility="collapsed")
+            uploaded_file = st.file_uploader("Upload JSON file", type=['json'], label_visibility="collapsed", key="json_uploader")
             if uploaded_file:
-                try:
-                    data = json.load(uploaded_file)
-                    st.session_state.editor_data = data
-                    st.success("Data loaded successfully!")
-                    st.rerun()
-                except json.JSONDecodeError:
-                    st.error("Invalid JSON file")
+                # Check if we've already processed this file to avoid infinite rerun loop
+                file_id = f"{uploaded_file.name}_{uploaded_file.size}"
+                if st.session_state.get("last_uploaded_file") != file_id:
+                    try:
+                        data = json.load(uploaded_file)
+                        st.session_state.editor_data = data
+                        st.session_state.last_uploaded_file = file_id
+                        st.success("Data loaded successfully!")
+                        st.rerun()
+                    except json.JSONDecodeError:
+                        st.error("Invalid JSON file")
 
     # Main editor area
     data = st.session_state.editor_data
