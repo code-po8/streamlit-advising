@@ -1,0 +1,198 @@
+{
+  "institution": "Ficticious State University",
+  "college": "Hard Knocks",
+  "department": "Internet Studies",
+  "major": "Professional Internet Studies",
+  "totalCredits": 120,
+  "description": "A comprehensive program preparing students for the digital age through rigorous study of contemporary online phenomena and digital communication.",
+  "courses": [
+    {
+      "id": "INET 1001",
+      "name": "Introduction to WiFi Fundamentals",
+      "credits": 3,
+      "semester": 1,
+      "description": "Learn the ancient art of troubleshooting your router. Topics include: turning it off and on again, checking if cables are plugged in, and the philosophical implications of 'no internet connection.'",
+      "prerequisites": []
+    },
+    {
+      "id": "INET 1002",
+      "name": "Basic Meme Literacy",
+      "credits": 3,
+      "semester": 1,
+      "description": "An introductory survey of meme formats from 2005-present. Students will learn to identify vintage memes, understand cultural context, and avoid being 'cringe.'",
+      "prerequisites": []
+    },
+    {
+      "id": "INET 1003",
+      "name": "Professional Procrastination",
+      "credits": 3,
+      "semester": 1,
+      "description": "Master the art of productive procrastination. Includes study of tab management, strategic reddit browsing, and advanced YouTube recommendation algorithms.",
+      "prerequisites": []
+    },
+    {
+      "id": "INET 2101",
+      "name": "Advanced Meme Theory",
+      "credits": 3,
+      "semester": 2,
+      "description": "Deep dive into meme economics, viral coefficients, and the lifecycle of trending topics. Laboratory component includes creating original content and surviving the comments section.",
+      "prerequisites": [
+        "INET 1002"
+      ]
+    },
+    {
+      "id": "INET 2102",
+      "name": "Social Media Doomscrolling",
+      "credits": 4,
+      "semester": 2,
+      "description": "Scientific exploration of infinite scroll mechanisms and their effects on dopamine receptors. Hands-on experience with all major platforms required.",
+      "prerequisites": [
+        "INET 1003"
+      ]
+    },
+    {
+      "id": "INET 2201",
+      "name": "Email Etiquette & Reply-All Prevention",
+      "credits": 2,
+      "semester": 3,
+      "description": "Critical study of when to use CC vs BCC, appropriate use of exclamation points, and the existential dread of 'per my last email.'",
+      "prerequisites": [
+        "INET 1001"
+      ]
+    },
+    {
+      "id": "INET 3301",
+      "name": "Advanced Coffee Studies",
+      "credits": 3,
+      "semester": 3,
+      "description": "Comprehensive analysis of caffeine delivery systems optimized for remote work. Includes espresso machine maintenance and Zoom-safe mug selection.",
+      "prerequisites": [
+        "INET 2102"
+      ]
+    },
+    {
+      "id": "INET 3302",
+      "name": "Influencer Marketing & Strategic Selfies",
+      "credits": 3,
+      "semester": 4,
+      "description": "Master the golden ratio of hashtags, optimal lighting conditions, and filter selection theory. Final project: achieve verified status on at least one platform.",
+      "prerequisites": [
+        "INET 2101"
+      ]
+    },
+    {
+      "id": "INET 3303",
+      "name": "Password Management & Security Theater",
+      "credits": 3,
+      "semester": 4,
+      "description": "Learn to create passwords you'll immediately forget. Topics include: 'Password123!', two-factor authentication anxiety, and security question philosophy.",
+      "prerequisites": [
+        "INET 2201"
+      ]
+    },
+    {
+      "id": "INET 3401",
+      "name": "Dark Mode Aesthetics",
+      "credits": 2,
+      "semester": 4,
+      "description": "Exploration of dark mode across platforms and its impact on perceived productivity. Lab sessions conducted exclusively at night.",
+      "prerequisites": [
+        "INET 2102"
+      ]
+    },
+    {
+      "id": "INET 4501",
+      "name": "Algorithm Appeasement Strategies",
+      "credits": 4,
+      "semester": 5,
+      "description": "Advanced techniques for gaming recommendation algorithms and avoiding social media jail. Includes study of shadowban detection and engagement metrics.",
+      "prerequisites": [
+        "INET 3302"
+      ]
+    },
+    {
+      "id": "INET 4502",
+      "name": "Chrome Tab Management at Scale",
+      "credits": 3,
+      "semester": 5,
+      "description": "Managing 47+ open tabs without crashing your browser. Topics include: tab grouping, session management, and coming to terms with memory leaks.",
+      "prerequisites": [
+        "INET 3301",
+        "INET 3303"
+      ]
+    },
+    {
+      "id": "INET 4503",
+      "name": "Emoji Linguistics & Unicode Politics",
+      "credits": 3,
+      "semester": 5,
+      "description": "Scholarly examination of emoji evolution, cross-platform rendering inconsistencies, and the generational divide in \ud83d\ude02 vs \ud83d\udc80 usage.",
+      "prerequisites": [
+        "INET 2101"
+      ]
+    },
+    {
+      "id": "INET 4601",
+      "name": "Professional GIF Selection",
+      "credits": 2,
+      "semester": 6,
+      "description": "Curating the perfect GIF response for every workplace scenario. Emphasis on Slack etiquette and appropriate reaction timing.",
+      "prerequisites": [
+        "INET 4503"
+      ]
+    },
+    {
+      "id": "INET 4602",
+      "name": "Zoom Fatigue Studies",
+      "credits": 3,
+      "semester": 6,
+      "description": "Anthropological study of remote meeting culture. Master the art of the strategic mute, virtual background selection, and looking engaged while multitasking.",
+      "prerequisites": [
+        "INET 3401"
+      ]
+    },
+    {
+      "id": "INET 4701",
+      "name": "Internet Drama & Discourse Analysis",
+      "credits": 4,
+      "semester": 7,
+      "description": "Advanced study of Twitter threads, ratio dynamics, and quote-tweet strategies. Students must successfully navigate at least one controversy without getting cancelled.",
+      "prerequisites": [
+        "INET 4501",
+        "INET 4503"
+      ]
+    },
+    {
+      "id": "INET 4702",
+      "name": "Online Shopping Cart Abandonment",
+      "credits": 3,
+      "semester": 7,
+      "description": "Psychology of wishlist curation, waiting for sales, and the spiritual practice of 'just browsing.' Final exam: resist Black Friday impulse purchases.",
+      "prerequisites": [
+        "INET 4502"
+      ]
+    },
+    {
+      "id": "INET 4801",
+      "name": "Capstone: Building Your Personal Brand",
+      "credits": 4,
+      "semester": 8,
+      "description": "Synthesize all learning into a cohesive online presence. Create a LinkedIn profile that makes you sound more impressive than you are. Graduate-level impostor syndrome included.",
+      "prerequisites": [
+        "INET 4601",
+        "INET 4701",
+        "INET 4702"
+      ]
+    },
+    {
+      "id": "INET 4802",
+      "name": "Thesis: Digital Detox Impossibility",
+      "credits": 3,
+      "semester": 8,
+      "description": "Comprehensive research project examining why you can't actually quit social media no matter how many times you've threatened to delete everything.",
+      "prerequisites": [
+        "INET 4602"
+      ]
+    }
+  ]
+}
